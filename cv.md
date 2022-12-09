@@ -1,3 +1,3 @@
-# Stanislav Igorevich #
-## Front-End Developer ##
-### gogo@mail.com ###
+# Stanislav Igorevich
+## Front-End Developer
+### gogo@mail.com
