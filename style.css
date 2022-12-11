@@ -36,7 +36,7 @@ header a {
     text-decoration: none;   }
 main {
     margin: 0 366px 0 367px;
-    background: url('../../images/city_image.jpeg') 0 0/1170px 100% no-repeat;   }
+    background: url('/city_image.jpeg') 0 0/1170px 100% no-repeat;   }
 .logo {
     max-width: 200px;
     max-height: 200px;
