@@ -135,6 +135,10 @@ p {
     margin-bottom: 10px;
 }
 
+.content {
+    
+}
+
 .code_example {
     
 }
@@ -151,12 +155,13 @@ p {
     opacity: 80%;
 }
 
-.code_example_view textarea {
-    margin-left: 102px;
-    padding-right: 23px;
-    border: double 3px rgb(26, 26, 29);
+.code_example_view {
+    border: solid 3px rgb(26, 26, 29);
     background: rgba(211, 140, 82, 0.3);
     color: rgba(211, 192, 192, 0.945);
+}
+
+.code_example_view {
 }
 
 .container_2 {
