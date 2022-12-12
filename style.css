@@ -70,13 +70,13 @@ h2 {
 }
 h3 {
     margin: 15px 0 6px 20;
-    line-height: 1.4;
+    line-height: 1.5;
     color: rgba(236, 232, 232, 70%);    
 }
 p {
     margin: 0;  
     font-family: 'Roboto', serif;
-    line-height: 1.4;
+    line-height: 1.5;
     color: rgba(236, 232, 232, 65%);
 }
 
@@ -93,13 +93,11 @@ p {
 
 .container_1 {
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     max-width: auto;
     max-height: auto;
-    margin-top: 130px;
-    margin-right: auto;
+    margin-top: 12rem;
     margin-bottom: 40px;
-    margin-left: auto;
     padding-right: 30px;
     padding-bottom: 20px;
     padding-left: 20px;
@@ -108,14 +106,14 @@ p {
     border-radius: 20px;
 }
 
-.about_me {}
-
-.about_me_p {
-    padding-right: 30px;
+.about_me {
+    padding: 1.5em 10em 1em 2em;
+    line-height: 1.5;
 }
 
 .skills {
-    line-height: 1.4;
+    padding: 1.5em 2em 1em 1em;
+    line-height: 1.5;
     color: rgba(236, 232, 232, 65%);
 }
 
@@ -128,7 +126,7 @@ p {
 .code_example {
     margin-left: 0px;
     padding: 0;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 .code_example h3 {
@@ -154,7 +152,7 @@ p {
 .container_2 {
     
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     max-width: auto;
     margin-top: 50px;
     padding-right: 30px;
@@ -164,7 +162,7 @@ p {
 
 .courses {
     margin-left: 20px;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 .courses a {
@@ -175,7 +173,7 @@ p {
 
 .languages {
     margin-left: 20px;
-    line-height: 1.4;
+    line-height: 1.5;
     color: rgba(236, 232, 232, 65%);
 }
 
@@ -183,28 +181,31 @@ p {
     margin-right: 25px;
 }
 
-.contact {
-    margin-left: 20px;
-    line-height: 1.4;
-}
-
-.contact a {
-    text-decoration: none;
-    color: rgba(236, 232, 232, 65%);
-}
-
 footer {
-    display: flex;
+    /* display: flex; */
     width: auto;
-    height: 8em;
+    height: 10em;
     margin: 0px 366px 0px 367px;
     background: rgb(32, 29, 27);
 }
 
-footer a {
-    color: rgba(236, 232, 232, 80%);
+.footer_wrap {
+    display: flex;
 }
 
-.footer_wrap {
-    
+.contact {
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+.contact a {
+    color: rgba(241, 233, 233, 0.726);
+}
+
+.contact span {
+    color: rgba(241, 233, 233, 0.726);
+}
+
+.contact img {
+    color: rgba(241, 233, 233, 0.726);
 }
