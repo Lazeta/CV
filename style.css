@@ -15,6 +15,9 @@ ul, li {
     margin: 0;
     padding: 0;
 }
+li a {
+    line-height: 1.5;
+}
 .container {
     width: 1170px;
     height: auto;
@@ -115,8 +118,7 @@ p {
 }
 
 .about_me {
-    padding: 1.5em 10em 1em 2em;
-    line-height: 1.5;
+    padding: 1em 10em 1em 2em;
 }
 
 .skills {
@@ -129,10 +131,12 @@ p {
     width: max-content;
 }
 
+.skills h3 {
+    margin-bottom: 10px;
+}
+
 .code_example {
-    margin-left: 0px;
-    padding: 0;
-    line-height: 1.5;
+    
 }
 
 .code_example h3 {
@@ -158,6 +162,7 @@ p {
 .container_2 {
     display: flex;
     justify-content:space-between;
+    align-items: center;
     max-width: auto;
     margin-top: 50px;
     padding: 1.5em 7em 1em 7em;
@@ -165,8 +170,7 @@ p {
 }
 
 .courses {
-    margin-left: 20px;
-    line-height: 1.5;
+   
 }
 
 .courses a {
@@ -175,14 +179,18 @@ p {
     
 }
 
+.courses h3 {
+    margin-bottom: 10px;
+}
+
 .languages {
     margin-left: 20px;
     line-height: 1.5;
     color: rgba(236, 232, 232, 65%);
 }
 
-.languages li {
-    margin-right: 25px;
+.languages h3 {
+    margin-bottom: 10px;
 }
 
 footer {
@@ -195,9 +203,9 @@ footer {
 .contact {
     display: flex;
     padding: 2em;
-    line-height: 1.5;
     justify-content: space-between;
     flex-direction: row;
+    align-items: center;
 }
 
 .contact a {
