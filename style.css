@@ -23,7 +23,7 @@ ul, li {
 
 /* individual styles */
 header {
-    height: 100px;
+    height: auto;
     margin: 0 366px 0px 367px;
     padding: 0;
     background: rgb(32, 29, 27);    
@@ -32,52 +32,60 @@ header a {
     font-family: 'Anton' sans-serif;
     color: rgba(236, 232, 232, 80%);    
 }
-.nav {}
+
 .menu {
     display: flex;  
     margin-left: 110px;
 }
+
 .menu li {
     margin: 40px 90px 40px 0;   
 }
+
 .menu a {
     font-size: 20px;
     text-decoration: none;   
 }
+
 main {
     margin: 0 366px 0 367px;
     background: url('/rsschool-cv/assets/img/city_image.jpeg') 0 0/1170px 100% no-repeat;   
 }
+
 .logo {
     max-width: 200px;
     max-height: 200px;
     margin: auto auto auto 2%;
     padding: 2% 0 0 0;
     opacity: 85%;  
- }
+}
+
 .logo img {
     border-radius: 100%;
     border: inset 5px rgba(192, 123, 58, 0.664);    
 }
+
 h1 {
     font-size: 2.8em;
     color: rgba(236, 232, 232, 90%);    
 }
+
 h2 {
     margin: -40px 0 0 70%;
     font-size: 1.8em;
-    color: rgba(236, 232, 232, 65%);    
+    color: rgba(236, 232, 232, 0.781);  
 }
+
 h3 {
     margin: 15px 0 6px 20;
     line-height: 1.5;
-    color: rgba(236, 232, 232, 70%);    
+    color: rgba(236, 232, 232, 85%);    
 }
+
 p {
-    margin: 0;  
     font-family: 'Roboto', serif;
     line-height: 1.5;
-    color: rgba(236, 232, 232, 65%);
+    color: rgba(236, 232, 232, 0.781);
 }
 
 .me h1 {
@@ -117,8 +125,6 @@ p {
     color: rgba(236, 232, 232, 65%);
 }
 
-.skills ul {}
-
 .skills li {
     width: max-content;
 }
@@ -150,13 +156,11 @@ p {
 }
 
 .container_2 {
-    
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     max-width: auto;
     margin-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 10px;
+    padding: 1.5em 7em 1em 7em;
     background: rgba(10, 9, 9, 0.795);
 }
 
@@ -182,20 +186,18 @@ p {
 }
 
 footer {
-    /* display: flex; */
     width: auto;
-    height: 10em;
+    height: auto;
     margin: 0px 366px 0px 367px;
     background: rgb(32, 29, 27);
 }
 
-.footer_wrap {
-    display: flex;
-}
-
 .contact {
-    margin-left: 20px;
+    display: flex;
+    padding: 2em;
     line-height: 1.5;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .contact a {
@@ -203,9 +205,5 @@ footer {
 }
 
 .contact span {
-    color: rgba(241, 233, 233, 0.726);
-}
-
-.contact img {
     color: rgba(241, 233, 233, 0.726);
 }
