@@ -3,12 +3,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', serif;
-    font-size: 16px;    
+    font-size: 16px;   
 }
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
-    text-decoration: uppercase; 
 }
 ul, li {
     display: block; 
@@ -36,16 +35,16 @@ header a {
     color: rgba(236, 232, 232, 0.836);  
 }
 
-.menu {
+.nav {
     display: flex;  
-    margin-left: 110px;
+    margin-left: 100px;
 }
 
-.menu li {
-    margin: 40px 90px 40px 0;   
+.nav li {
+    padding: 40px 90px 40px 0;   
 }
 
-.menu a {
+.nav a {
     font-size: 20px;
     text-decoration: none;   
 }
@@ -66,6 +65,10 @@ main {
 .logo img {
     border-radius: 100%;
     border: inset 5px rgba(192, 123, 58, 0.664);    
+}
+
+.section__container {
+    padding-bottom: 150px;
 }
 
 h1 {
@@ -91,7 +94,7 @@ p {
     color: rgba(236, 232, 232, 0.836);
 }
 
-.me h1 {
+.my-name h1 {
     margin-top: -100px;
     margin-left: 270px;
     padding-left: 2%;
@@ -102,11 +105,11 @@ p {
     margin-right: 0px;
 }
 
-.container_1 {
-    display: flex;
-    justify-content:space-around;
-    max-width: auto;
-    max-height: auto;
+.section-1 {
+    /* display: flex;
+    justify-content:space-around; */
+    /* max-width: auto;
+    max-height: auto; */
     margin-top: 12rem;
     margin-bottom: 40px;
     padding-right: 30px;
@@ -117,7 +120,21 @@ p {
     border-radius: 20px;
 }
 
-.about_me {
+.section-2 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    max-width: auto;
+    margin-top: 50px;
+    padding: 1.5em 7em 1em 7em;
+    background: rgba(10, 9, 9, 0.795);
+}
+
+section.content {
+    margin-right: 50%; 
+}
+
+.about-me {
     padding: 1em 7em 1em 7em;
 }
 
@@ -135,16 +152,8 @@ p {
     margin-bottom: 10px;
 }
 
-.content {
-    
-}
-
-.code_example {
-    
-}
-
-.code_example h3 {
-    margin-left: 200px;
+.code-example {
+    padding-left: 110px;
 }
 
 .example {
@@ -155,23 +164,10 @@ p {
     opacity: 80%;
 }
 
-.code_example_view {
-    border: solid 3px rgb(26, 26, 29);
+textarea.code-example-view {
+    border: solid 4px rgb(26, 26, 29);
     background: rgba(211, 140, 82, 0.3);
     color: rgba(211, 192, 192, 0.945);
-}
-
-.code_example_view {
-}
-
-.container_2 {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    max-width: auto;
-    margin-top: 50px;
-    padding: 1.5em 7em 1em 7em;
-    background: rgba(10, 9, 9, 0.795);
 }
 
 .courses {
@@ -204,7 +200,7 @@ footer {
     background: rgb(32, 29, 27);
 }
 
-.contact {
+.contacts {
     display: flex;
     padding: 2em;
     justify-content: space-between;
@@ -212,10 +208,10 @@ footer {
     align-items: center;
 }
 
-.contact a {
+.contacts a {
     color: rgba(236, 232, 232, 0.836);
 }
 
-.contact span {
+.create-data {
     color: rgba(236, 232, 232, 0.836);
 }
