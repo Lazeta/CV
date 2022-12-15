@@ -158,7 +158,6 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: auto;
     margin-top: 50px;
     padding: 1.5em 7em 1em 7em;
     background: rgba(10, 9, 9, 0.795);
