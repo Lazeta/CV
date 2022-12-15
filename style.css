@@ -122,6 +122,9 @@ main {
 
 .section-1 {
     background: rgba(26, 26, 29, 0.60);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 .about-me p {
