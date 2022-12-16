@@ -1,4 +1,3 @@
-/* general styles */
 body {
     margin: 0;
     padding: 0;
@@ -21,7 +20,7 @@ li {
     margin: 0;
     padding: 0;
     line-height: 1.5;
-    display: block;
+    display: inline-block;
 }
 
 li a {
@@ -52,7 +51,9 @@ p {
 }
 
 .container {
-    width: 1170px;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 
