@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="My cv site">
+    <meta name="keywords" content="программирование, курсы, HTML, CSS, cv, CV, portfolio, портфолио, biography, биография, project, проект, RSChoole, rs-school, rooling scopes school, rs shool, rewiew">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="icon" href="assets/svg/favicon.ico"> -->
+    <link rel="shortcut icon" href="assets/svg/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100&family=Noto+Serif:wght@700&family=Roboto&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>CV</title>
+</head>
+
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <nav class="menu__bar">
+                    <ul class="header__items">
+                        <li><a href="about-my">About me</a></li>
+                        <li><a href="skills">Skills</a></li>
+                        <li><a href="code-example">Code example</a></li>
+                        <li><a href="courses">Courses</a></li>
+                        <li><a href="languages">Languages</a></li>
+                        <li><a href="contact-info">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        <main id="main" class="main">
+            <div class="section">
+                <div class="logo">
+                    <img src="/rsschool-cv/assets/img/logo.jpg" alt="My avatar for lending" style="width: 250px">
+                </div>
+    
+                <div class="my-name">
+                    <h1>Stanislav Chekh</h1>
+                    <h2>Front-End Developer</h2>
+                </div>
+            </div>
+            <section class="container">
+                <div class="wrapper__code-example">
+                    <h3 class="code-example__name">Code example and how it's work:</h3>
+                    <div class="example">
+                        <div class="transfusion-of-color">transfusion of color these words</div>
+                    </div>
+                </div>
+            </section>
+            <div class="content">
+    <textarea class="code-example-view" cols="80" rows="45">
+.transfusion-of-color {
+    position: relative;
+    font-family: Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 46px;
+    background: rgb(235, 226, 233);
+    overflow: hidden;
+    text-transform: uppercase;
+    text-align: center;
+} 
+.transfusion-of-color:before {
+    content: '';
+    position: absolute;
+    filter: blur(10px);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: screen;
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 1em, #da0e0e 1em, #cf5f03 50%),
+        repeating-linear-gradient(45deg, #746049, #3d3c3b 1em, rgb(128, 79, 79) 1em, #c05b2d 50%);
+    background-size: 3em 3em, 2em 2em;
+    animation-name: ani;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+} 
+@keyframes ani {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100% 0;
+    }
+}
+@media (max-width: 690px) {
+    .transfusion-of-color {
+        font-size: 20px;
+    }
+}
+    </textarea>
+                <div class="section-1">
+                    <section class="about-me">
+                        <h3>About me:</h3>
+                        <p class="paragraph">
+                            I aspire to become a professional in HTML, CSS, JavaScript, TypeScript, Python. 
+                            It is important for me to be able to make websites well, 
+                            maintain them, debug them, develop applications, make bots, 
+                            parsers and much more that programming languages are capable of.
+                        </p>
+                        <p>
+                            I can sit on the code for a long time in an attempt to improve or fix it. 
+                            The main skill that helps me in IT is the ability to google. 
+                            The main goal is to work remotely at the computer as I like and travel 
+                            freely around the world if possible
+                        </p>
+                    </section>
+                    <section class="skills">
+                        <h3>Skills:</h3>
+                        <ul>
+                            <li>HTML, CSS : markup, adaptive layout</li>
+                            <li>Python : Development telegram bot, basic games</li>
+                            <li>Visual Studio Code, Sublime Text 3, IDLE, IDE, Pycharm</li>
+                            <li>Windows Terminal, CMD, PowerShell</li>
+                            <li>I can work with Google Browser, Opera, Mozila Firefox.</li>
+                            <li>I can google</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+    
+            <div class="section-2">
+                <section class="courses">
+                    <h3>Courses:</h3>
+                    <ul>
+                        <li><a href="https://fructcode.com/ru/courses/html-and-css-advanced/">HTML and CSS Course on the FructCode (completed)</a></li>
+                        <li><a href="https://ru.code-basics.com/languages/html">HTML Course on the RS-school (completed)</a></li>
+                        <li><a href="https://ru.code-basics.com/languages/css">CSS Course on the RS-school (completed)</a></li>
+                        <li><a href="https://ru.pdfdrive.com/%D0%93%D1%80%D0%BE%D0%BA%D0%B0%D0%B5%D0%BC-%D0%B0%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D1%8B-e186671794.html">Грокаем Алгоритмы "Python" (completed)</a></li>
+                        <li><a href="https://pythonworld.ru/samouchitel-python">https://pythonworld.ru/samouchitel-python, "Python 3" (completed)</a></li>
+                        <li><a href="https://rs.school/js-stage0/">RS-school Course "JavaScript/Front-end. Stage 0" (in progress)</a></li>
+                        <li><a href="https://rs.school/js/">Course "JavaScript/Front-end" (next)</a></li>
+                    </ul>
+                </section>
+                <section class="languages">
+                    <h3>Languages:</h3>
+                    <ul>
+                        <li>Belarusian - Intermediate</li>
+                        <li>Ukrainian - Intermediate</li>
+                        <li>English - Intermediate</li>
+                        <li>Russian - Native</li>
+                        <li>Polish - Basic</li>
+                        <li>Slovak - Basic</li>
+                        <li>Chech - Basic</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        
+    
+        <footer class="footer">
+            <div class="container">
+                <ul class="footer__contacts">
+                    <li><span class="item__create-data">© 2022 by Stanislav Chekh</span></li>
+                    <li><a href="https://github.com/Lazeta">GitHub</a></li>
+                    <li><a href="tel:+375333086965">+375333086965</a></li>
+                    <li><a href="https://www.discord.com/ℤ𝕒𝕞#3735">Discord: Zam#3735</a></li>
+                    <li><a href="https://www.linkedin.com/in/stas-chekh-307069167/">Linkedin</a></li>
+                    <li><a href="https://rs.school/js-stage0/"><img class="item__rs-logo" src="assets/svg/rs_school-white-not-have-bg.ico" alt="rs school logo"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
