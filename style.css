@@ -11,10 +11,10 @@ h1,h2,h3,h4,h5,h6 {
 ul,li {
     margin: 0;
     padding: 0;
-    line-height: 1.5em;
+    line-height: 1.5;
 }
 li a {
-    line-height: 1.5em;
+    line-height: 1.5;
 }
 h1 {
     font-size: 2.8em;
@@ -73,6 +73,9 @@ header {
 }
 
 
+.content__name {
+    padding-bottom: 10em;
+}
 .logo {
     max-width: 200px;
     max-height: 200px;
@@ -84,19 +87,22 @@ header {
     border-radius: 100%;
     border: inset 5px rgba(240, 119, 6, 0.986);
 }
+.item__my-name {
 
+}
+.item__my-major {
+
+}
 .aside__content {
     display: inline-flex;
     flex-direction: column-reverse;
     align-items: flex-end;
     flex-wrap: wrap;
 }
-
 .my-name {
     margin-top: -97px;
     opacity: 75%;
 }
-
 .my-name h1 {
     border-radius: 0 50px 50px 0;
     max-width: 67%;
@@ -107,7 +113,6 @@ header {
     background: -moz-linear-gradient(0deg, rgb(139, 139, 139) 25%, rgb(247, 247, 247));
     background: linear-gradient(0deg, rgb(139, 139, 139) 25%, rgb(247, 247, 247));
 }
-
 .my-name h2 {
     color: rgba(226, 19, 19, 0.911);
 }
@@ -157,7 +162,6 @@ header {
     animation-timing-function: linear;
     animation-direction: alternate;
 }
-
 @keyframes ani {
     from {
         background-position: 0 0;
@@ -167,13 +171,11 @@ header {
         background-position: 100% 0;
     }
 }
-
 @media (max-width: 690px) {
     .transfusion-of-color {
         font-size: 20px;
     }
 }
-
 textarea.code-example-view {
     min-width: auto;
     min-height: auto;
@@ -183,9 +185,6 @@ textarea.code-example-view {
     margin-bottom: 0px;
 }
 
-.content__name {
-    padding-bottom: 10em;
-}
 
 .wrapper__content {
     background: rgba(26, 26, 29, 0.60);
@@ -193,34 +192,49 @@ textarea.code-example-view {
     justify-content: space-between;
     flex-flow: column nowrap;
 }
-.wrapper__about-me {
+.about-me {
     max-width: 500px;
     min-height: 250px;
+    padding: 1.5em 2em 1em 1em;
 }
-.wrapper__about-me p {
+.about-me p {
     padding-left: 1em;
     color: rgba(255, 255, 255, 1);
 }
-.wrapper__about-me h3 {
+.about-me h3 {
     padding-left: 1em;
-    color: rgba(223, 52, 52, 0.836);
+    color: rgba(250, 5, 5, 1);
 }
-.wrapper__about-me {
-    padding: 1.5em 2em 1em 1em;
-}
-.wrapper__skills {
+.skills {
     padding: 1.5em 2em 1em 1em;
     line-height: 1.5em;
 }
-.wrapper__skills li {
+.skills li {
     padding-left: 1em;
     color: rgba(255, 255, 255, 1);
     list-style-type: none;
 }
-.wrapper__skills h3 {
+.skills h3 {
     padding-left: 1em;
     margin-bottom: 10px;
     color: rgba(250, 5, 5, 1);
+}
+.projects {
+    padding: 1.5em 2em 1em 1em;
+    line-height: 1.5em;
+}
+.projects li {
+    padding-left: 1em;
+    list-style-type: none;
+}
+.projects h3 {
+    padding-left: 1em;
+    margin-bottom: 10px;
+    color: rgba(250, 5, 5, 1);
+}
+.projects a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
 }
 
 
