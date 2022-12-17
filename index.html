@@ -18,29 +18,30 @@
     <div class="wrapper">
         <header class="header">
             <div class="container">
-                <nav class="menu__bar">
-                    <ul class="header__items">
-                        <li><a href="about-my">About me</a></li>
-                        <li><a href="skills">Skills</a></li>
-                        <li><a href="code-example">Code example</a></li>
-                        <li><a href="courses">Courses</a></li>
-                        <li><a href="languages">Languages</a></li>
-                        <li><a href="contact-info">Contact</a></li>
+                <nav class="header__menu">
+                    <ul class="header__ul">
+                        <li><a href="item__about-my">About me</a></li>
+                        <li><a href="item__skills">Skills</a></li>
+                        <li><a href="item__code-example">Code example</a></li>
+                        <li><a href="item__courses">Courses</a></li>
+                        <li><a href="item__languages">Languages</a></li>
+                        <li><a href="item__contact-info">Contact</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
 
 
-        <main id="main" class="main">
-            <div class="section">
-                <div class="logo">
-                    <img src="/logo.jpg" alt="My avatar for lending" style="width: 250px">
-                </div>
-    
-                <div class="my-name">
-                    <h1>Stanislav Chekh</h1>
-                    <h2>Front End Developer</h2>
+        <main class="main">
+            <div class="container">
+                <div class="content__greeting">
+                    <div class="logo">
+                        <img src="/logo.jpg" alt="My avatar for lending" style="width: 250px">
+                    </div>
+                    <div class="my-name">
+                        <h1>Stanislav Chekh</h1>
+                        <h2>Front End Developer</h2>
+                    </div>
                 </div>
             </div>
             <section class="container">
@@ -51,7 +52,7 @@
                     </div>
                 </div>
             </section>
-            <div class="content">
+            <div class="example">
     <textarea class="code-example-view" cols="80" rows="45">
 .transfusion-of-color {
     position: relative;
@@ -126,10 +127,10 @@
                 </div>
             </div>
     
-            <div class="section-2">
-                <section class="courses">
+            <section class="section-2">
+                <div class="courses">
                     <h3>Courses:</h3>
-                    <ul>
+                    <ul >
                         <li><a href="https://fructcode.com/ru/courses/html-and-css-advanced/">HTML and CSS Course on the FructCode (completed)</a></li>
                         <li><a href="https://ru.code-basics.com/languages/html">HTML Course on the RS-school (completed)</a></li>
                         <li><a href="https://ru.code-basics.com/languages/css">CSS Course on the RS-school (completed)</a></li>
@@ -138,8 +139,8 @@
                         <li><a href="https://rs.school/js-stage0/">RS-school Course "JavaScript/Front-end. Stage 0" (in progress)</a></li>
                         <li><a href="https://rs.school/js/">Course "JavaScript/Front-end" (next)</a></li>
                     </ul>
-                </section>
-                <section class="languages">
+                </div>
+                <div class="languages">
                     <h3>Languages:</h3>
                     <ul>
                         <li>Belarusian - Intermediate</li>
@@ -150,20 +151,20 @@
                         <li>Slovak - Basic</li>
                         <li>Chech - Basic</li>
                     </ul>
-                </section>
-            </div>
+                </div>
+            </ы>
         </main>
         
     
         <footer class="footer">
             <div class="container">
                 <ul class="footer__contacts">
-                    <li><span class="item__create-data">© 2022 by Stanislav Chekh</span></li>
-                    <li><a href="https://github.com/Lazeta">GitHub</a></li>
-                    <li><a href="tel:+375333086965">+375333086965</a></li>
-                    <li><a href="https://www.discord.com/ℤ𝕒𝕞#3735">Discord: Zam#3735</a></li>
-                    <li><a href="https://www.linkedin.com/in/stas-chekh-307069167/">Linkedin</a></li>
-                    <li><a href="https://rs.school/js-stage0/"><img class="item__rs-logo" src="/rs_school-white-not-have-bg.ico" alt="rs school logo"></a></li>
+                    <li class="item__create-data"><span >© 2022 by Stanislav Chekh</span></li>
+                    <li class="item__github"><a href="https://github.com/Lazeta">GitHub</a></li>
+                    <li class="item__phone"><a href="tel:+375333086965">+375333086965</a></li>
+                    <li class="item__discord"><a href="https://www.discord.com/ℤ𝕒𝕞#3735">Discord: Zam#3735</a></li>
+                    <li class="item__linkedin"><a href="https://www.linkedin.com/in/stas-chekh-307069167/">Linkedin</a></li>
+                    <li class="item__rs-logo"><a href="https://rs.school/js-stage0/"><img src="/rs_school-white-not-have-bg.ico" alt="rs school logo"></a></li>
                 </ul>
             </div>
         </footer>
