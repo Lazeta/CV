@@ -52,37 +52,39 @@
                     </div>
                 </div>
             </section>
-            <div class="example">
-    <textarea class="code-example-view" cols="80" rows="45">
+            <div class="wrapper__example">
+                <textarea class="code-example-view" cols="80" rows="45">
 .transfusion-of-color {
+    margin-right: 1.5em;
     position: relative;
     font-family: Verdana, sans-serif;
     font-weight: 900;
-    font-size: 46px;
-    background: rgb(235, 226, 233);
+    font-size: 44px;
+    background: rgba(255, 255, 250, 0.699);
+    border-radius: 0.2em 0.2em;
     overflow: hidden;
     text-transform: uppercase;
     text-align: center;
-} 
+}
 .transfusion-of-color:before {
     content: '';
     position: absolute;
-    filter: blur(10px);
+    filter: blur(12px);
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     mix-blend-mode: screen;
-    background-image: repeating-linear-gradient(-45deg, transparent, transparent 1em, #da0e0e 1em, #cf5f03 50%),
-        repeating-linear-gradient(45deg, #746049, #3d3c3b 1em, rgb(128, 79, 79) 1em, #c05b2d 50%);
+    background-image: repeating-linear-gradient(-65deg, transparent, transparent 1em, #b8b520 1em, #d41f1f 50%),
+        repeating-linear-gradient(65deg, #a3a5a5, #2dd4d4 1em, rgb(49, 150, 83) 1em, #7cf10e 50%);
     background-size: 3em 3em, 2em 2em;
-    animation-name: ani;
-    animation-duration: 12s;
+    animation-name: anim;
+    animation-duration: 15s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: ease-out;
     animation-direction: alternate;
-} 
-@keyframes ani {
+}
+@keyframes anim {
     from {
         background-position: 0 0;
     }
@@ -96,7 +98,8 @@
         font-size: 20px;
     }
 }
-    </textarea>
+                </textarea>
+
                 <div class="wrapper__content">
                     <section class="about-me">
                         <h3 сlass="#">About me:</h3>
@@ -129,11 +132,11 @@
                     <section class="projects">
                         <h3 class="#">Projects:</h3>
                         <ul>
-                            <li><a href="">project #1</a></li>
-                            <li><a href="">project #2</a></li>
-                            <li><a href="">project #3</a></li>
-                            <li><a href="">project #4</a></li>
-                            <li><a href="">project #5</a></li>
+                            <li><a href="https://github.com/Lazeta/Friday_Live_Coding.git">Friday Live Coding</a></li>
+                            <li><a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/plants/plants.md">Plants</a></li>
+                            <li><a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/momentum/momentum-stage1.md">Momentum</a></li>
+                            <li><a href="https://github.com/Lazeta/portfolio.git">Portfolio</a></li>
+                            <li><a href="https://github.com/Lazeta/coding_time_stats.git">Coding time, stats</a></li>
                         </ul>
                     </section>
                 </div>
