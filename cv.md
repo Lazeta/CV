@@ -106,6 +106,10 @@
 * https://pythonworld.ru/samouchitel-python "Python 3" (completed)
 * https://rs.school/js-stage0/ RS-school Course "JavaScript/Front-end. Stage 0" (in progress)
 * https://rs.school/js/ Course "JavaScript/Front-end" (next)
+* HTML and CSS Course on the FructCode and RS-school (completed)
+* RS-school Course "JavaScript/Front-end. Stage 0" (in progress)
+* Грокаем Алгоритмы "Python" (completed)
+* https://pythonworld.ru/samouchitel-python "Python 3" (completed)
 
 --------------------------------------------------------------------
 ### Languages:
