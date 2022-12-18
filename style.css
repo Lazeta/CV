@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: 'Roboto', serif;
     font-size: 16px;
-    background: url('/city_image.jpeg') 0 0%/100%;
+    background: url('../city_image.jpeg') 0 0%/100%;
 }
 h1,h2,h3,h4,h5,h6 {
     margin: 0;
@@ -36,10 +36,6 @@ p {
 }
 
 
-
-.wrapper {
-
-}
 .container {
     margin: 0 auto;
     padding: 0 auto;
@@ -150,7 +146,7 @@ header {
 }
 .container__code-example h2 {
     margin: 15px 0 6px 20px;
-    font-size: 1.3em;
+    font-size: 1.4em;
     max-width: 500px;
 }
 .code-example__name {
@@ -232,7 +228,8 @@ textarea.code-example-view {
     padding-left: 1em;
     color: rgba(255, 255, 255, 1);
 }
-.about-me h3 {
+.about-me h2 {
+    font-size: 1.2em;
     padding: 0 0 0 40px;
     color: rgba(250, 5, 5, 1);
 }
@@ -245,7 +242,8 @@ textarea.code-example-view {
     color: rgba(255, 255, 255, 1);
     list-style-type: none;
 }
-.skills h3 {
+.skills h2 {
+    font-size: 1.2em;
     padding: 0 0 10px 40px;
     color: rgba(250, 5, 5, 1);
 }
@@ -257,7 +255,8 @@ textarea.code-example-view {
     padding-left: 1em;
     list-style-type: none;
 }
-.projects h3 {
+.projects h2 {
+    font-size: 1.2em;
     padding: 0 0 10px 40px;
     color: rgba(250, 5, 5, 1);
 }
@@ -283,7 +282,8 @@ textarea.code-example-view {
     color: rgba(225, 225, 225, 0.85);
     text-decoration: none;
 }
-.course h3 {
+.course h2 {
+    font-size: 1.2em;
     padding: 30px 0 10px 25px;
     color: rgba(223, 52, 52, 0.966);
 }
@@ -291,7 +291,8 @@ textarea.code-example-view {
     padding: 0em 2em 1em 2em;
     color: rgba(225, 225, 225, 0.85);
 }
-.language h3 {
+.language h2 {
+    font-size: 1.2em;
     padding: 0 0 10px 25px;
     padding-top: 30px;
     color: rgba(223, 52, 52, 0.836);
@@ -327,7 +328,7 @@ footer {
 
 
 /* Adaptive */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .wrapper {
         min-width: 400px;
     }
@@ -363,8 +364,8 @@ footer {
     .transfusion-of-color {
         position: relative;
         font-family: Verdana, sans-serif;
-        font-weight: 900;
-        font-size: 2.0em;
+        font-weight: 600;
+        font-size: 2.2em;
         background: rgba(255, 255, 250, 0.7);
         border-radius: 0.2em 0.2em;
         overflow: hidden;
