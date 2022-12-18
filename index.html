@@ -7,23 +7,21 @@
     <meta name="keywords" content="программирование, курсы, HTML, CSS, cv, CV, portfolio, портфолио, biography, биография, project, проект, RSChoole, rs-school, rooling scopes school, rs shool, rewiew">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="icon" href="assets/svg/favicon.ico"> -->
-    <!-- <link rel="shortcut icon" href="assets/svg/favicon.ico" type="image/x-icon"> -->
-    <!-- <link rel="stylesheet" href="/assets/fonts/fonts.css"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/svg/favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100&family=Noto+Serif:wght@700&family=Roboto&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
+    <link rel="manifest" href="../assets/site.webmanifest">
+    <link rel="mask-icon" href="../assets/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <title>CV</title>
 </head>
 
 
 <body>
-    <div class="wrapper wrapper__body wrapper__title wrapper__text">
-        <header class="header">
-            <div class="container container-fluid">
+    <div class="wrapper">
+        <header class="header wrapper__header">
+            <div class="container">
                 <nav class="header__menu">
                     <ul class="header__ul">
                         <li><a href="item__about-my">About me</a></li>
@@ -34,25 +32,12 @@
                         <li><a href="item__contact-info">Contact</a></li>
                     </ul>
                 </nav>
-    <div class="wrapper">
-        <header class="header">
-            <div class="container">
-                <div class="menu__bar">
-                    <ul class="header__items">
-                        <li><a href="about-my">About me</a></li>
-                        <li><a href="skills">Skills</a></li>
-                        <li><a href="code-example">Code example</a></li>
-                        <li><a href="courses">Courses</a></li>
-                        <li><a href="languages">Languages</a></li>
-                        <li><a href="contact-info">Contact</a></li>
-                    </ul>
-                </div>
             </div>
         </header>
 
 
-        <main class="main">
-            <div class="container container-fluid">
+        <main class="main wrapper__main">
+            <div class="container">
                 <div class="content__name">
                     <div class="logo">
                         <img src="/logo.jpg" alt="My avatar for lending" style="width: 250px">
@@ -65,21 +50,8 @@
             </div>
 
             <section class="container">
-                <div class="container__code-example container-fluid">
-        <main id="main" class="main">
-            <div class="section container">
-                <div class="logo">
-                    <img src="/rsschool-cv/assets/img/logo.jpg" alt="My avatar for lending" style="width: 250px">
-                </div>
-    
-                <div class="my-name">
-                    <h1>Stanislav Chekh</h1>
-                    <h2>Front-End Developer</h2>
-                </div>
-            </div>
-            <section class="container">
-                <div class="wrapper__code-example">
-                    <h3 class="code-example__name">Code example and how it's work:</h3>
+                <div class="container__code-example">
+                    <h2 class="code-example__name">Code example and how it's work:</h2>
                     <div class="example">
                         <div class="transfusion-of-color">transfusion of color these words</div>
                     </div>
@@ -104,23 +76,6 @@
     position: absolute;
     filter: blur(12px);
     top: 5px;
-            <div class="content container">
-    <textarea class="code-example-view" cols="80" rows="45">
-.transfusion-of-color {
-    position: relative;
-    font-family: Verdana, sans-serif;
-    font-weight: 900;
-    font-size: 46px;
-    background: rgb(235, 226, 233);
-    overflow: hidden;
-    text-transform: uppercase;
-    text-align: center;
-} 
-.transfusion-of-color:before {
-    content: '';
-    position: absolute;
-    filter: blur(10px);
-    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
@@ -135,16 +90,6 @@
     animation-direction: alternate;
 }
 @keyframes anim {
-    background-image: repeating-linear-gradient(-45deg, transparent, transparent 1em, #da0e0e 1em, #cf5f03 50%),
-        repeating-linear-gradient(45deg, #746049, #3d3c3b 1em, rgb(128, 79, 79) 1em, #c05b2d 50%);
-    background-size: 3em 3em, 2em 2em;
-    animation-name: ani;
-    animation-duration: 12s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-direction: alternate;
-} 
-@keyframes ani {
     from {
         background-position: 0 0;
     }
@@ -160,13 +105,9 @@
 }
                 </textarea>
 
-                <div class="container__content container-fluid">
+                <div class="container__content">
                     <section class="about-me">
-                        <h3 сlass="#">About me:</h3>
-    </textarea>
-                <div class="section-1 container">
-                    <section class="about-me">
-                        <h3>About me:</h3>
+                        <h2>About me:</h2>
                         <p class="paragraph">
                             I aspire to become a professional in HTML, CSS, JavaScript, TypeScript, Python. 
                             It is important for me to be able to make websites well, 
@@ -180,10 +121,9 @@
                             freely around the world if possible
                         </p>
                     </section>
+
                     <section class="skills">
-                        <h3 сlass="#">Skills:</h3>
-                    <section class="skills">
-                        <h3>Skills:</h3>
+                        <h2>Skills:</h2>
                         <ul>
                             <li>HTML, CSS : markup, adaptive layout</li>
                             <li>Python : Development telegram bot, basic games</li>
@@ -195,7 +135,7 @@
                     </section>
 
                     <section class="projects">
-                        <h3 class="#">Projects:</h3>
+                        <h2>Projects:</h2>
                         <ul>
                             <li><a href="https://github.com/Lazeta/Friday_Live_Coding.git">Friday Live Coding</a></li>
                             <li><a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/plants/plants.md">Plants</a></li>
@@ -207,17 +147,10 @@
                 </div>
             </div>
     
-            <section class="containter__course container-fluid">
+            <section class="containter__course ">
                 <div class="course">
-                    <h3 class="#">Courses:</h3>
-                    <ul сlass="#">
-                </div>
-            </div>
-    
-            <div class="section-2 container">
-                <section class="courses">
-                    <h3>Courses:</h3>
-                    <ul>
+                    <h2>Courses:</h2>
+                    <ul class="course__ul">
                         <li><a href="https://fructcode.com/ru/courses/html-and-css-advanced/">HTML and CSS Course on the FructCode (completed)</a></li>
                         <li><a href="https://ru.code-basics.com/languages/html">HTML Course on the RS-school (completed)</a></li>
                         <li><a href="https://ru.code-basics.com/languages/css">CSS Course on the RS-school (completed)</a></li>
@@ -226,16 +159,10 @@
                         <li><a href="https://rs.school/js-stage0/">RS-school Course "JavaScript/Front-end. Stage 0" (in progress)</a></li>
                         <li><a href="https://rs.school/js/">Course "JavaScript/Front-end" (next)</a></li>
                     </ul>
-
                 </div>
                 <div class="language">
-                    <h3 class="#">Languages:</h3>
-                    <ul сlass="#">
-                </section>
-                <section class="languages">
-                    <h3>Languages:</h3>
+                    <h2>Languages:</h2>
                     <ul>
-
                         <li>Belarusian - Intermediate</li>
                         <li>Ukrainian - Intermediate</li>
                         <li>English - Intermediate</li>
@@ -248,8 +175,8 @@
             </section>
         </main>
         
-        <footer class="footer">
-            <div class="container container-fluid">
+        <footer class="footer wrapper__footer">
+            <div class="container">
                 <ul class="footer__ul">
                     <li class="item__create-data"><span >© 2022 by Stanislav Chekh</span></li>
                     <li class="item__github"><a href="https://github.com/Lazeta">GitHub</a></li>
@@ -257,20 +184,6 @@
                     <li class="item__discord"><a href="https://www.discord.com/ℤ𝕒𝕞#3735">Discord: Zam#3735</a></li>
                     <li class="item__linkedin"><a href="https://www.linkedin.com/in/stas-chekh-307069167/">Linkedin</a></li>
                     <li class="item__rs-logo"><a href="https://rs.school/js-stage0/"><img src="/rs_school-white-not-have-bg.ico" alt="rs school logo"></a></li>
-                </section>
-            </div>
-        </main>
-        
-    
-        <footer class="footer">
-            <div class="container">
-                <ul class="contacts">
-                    <li><span class="create-data">© 2022 by Stanislav Chekh</span></li>
-                    <li><a href="https://github.com/Lazeta">GitHub</a></li>
-                    <li><a href="tel:+375333086965">+375333086965</a></li>
-                    <li><a href="https://www.discord.com/ℤ𝕒𝕞#3735">Discord: Zam#3735</a></li>
-                    <li><a href="https://www.linkedin.com/in/stas-chekh-307069167/">Linkedin</a></li>
-                    <li><a href="https://rs.school/js-stage0/"><img src="assets/svg/rs_school-white-not-have-bg.ico" alt="rs school logo"></a></li>
                 </ul>
             </div>
         </footer>
