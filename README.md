@@ -1,2 +1,1 @@
-## https://lazeta.github.io/rsschool-cv/
-## https://lazeta.github.io/rsschool-cv/cv
+https://Lazeta.github.io/rsschool-cv/cv https://Lazeta.github.io/rsschool-cv/
