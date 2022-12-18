@@ -99,10 +99,17 @@
 --------------------------------------------------------------------
 ### Courses:
 
+* https://fructcode.com/ru/courses/html-and-css-advanced/ HTML and CSS Course on the FructCode (completed)
+* https://ru.code-basics.com/languages/html HTML Course on the RS-school (completed)
+* https://ru.code-basics.com/languages/css CSS Course on the RS-school (completed)
+* https://oz.by/books/more10569541.html Грокаем Алгоритмы "Python" (completed)
+* https://pythonworld.ru/samouchitel-python "Python 3" (completed)
+* https://rs.school/js-stage0/ RS-school Course "JavaScript/Front-end. Stage 0" (in progress)
+* https://rs.school/js/ Course "JavaScript/Front-end" (next)
 * HTML and CSS Course on the FructCode and RS-school (completed)
 * RS-school Course "JavaScript/Front-end. Stage 0" (in progress)
 * Грокаем Алгоритмы "Python" (completed)
-* <<https://pythonworld.ru/samouchitel-python>> "Python 3" (completed)
+* https://pythonworld.ru/samouchitel-python "Python 3" (completed)
 
 --------------------------------------------------------------------
 ### Languages:

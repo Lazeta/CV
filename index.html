@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="My cv site">
+    <meta name="keywords" content="программирование, курсы, HTML, CSS, cv, CV, portfolio, портфолио, biography, биография, project, проект, RSChoole, rs-school, rooling scopes school, rs shool, rewiew">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="icon" href="assets/svg/favicon.ico"> -->
+    <!-- <link rel="shortcut icon" href="assets/svg/favicon.ico" type="image/x-icon"> -->
+    <!-- <link rel="stylesheet" href="/assets/fonts/fonts.css"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/svg/favicon.ico">
@@ -14,6 +21,19 @@
 
 
 <body>
+    <div class="wrapper wrapper__body wrapper__title wrapper__text">
+        <header class="header">
+            <div class="container container-fluid">
+                <nav class="header__menu">
+                    <ul class="header__ul">
+                        <li><a href="item__about-my">About me</a></li>
+                        <li><a href="item__skills">Skills</a></li>
+                        <li><a href="item__code-example">Code example</a></li>
+                        <li><a href="item__courses">Courses</a></li>
+                        <li><a href="item__languages">Languages</a></li>
+                        <li><a href="item__contact-info">Contact</a></li>
+                    </ul>
+                </nav>
     <div class="wrapper">
         <header class="header">
             <div class="container">
@@ -31,6 +51,21 @@
         </header>
 
 
+        <main class="main">
+            <div class="container container-fluid">
+                <div class="content__name">
+                    <div class="logo">
+                        <img src="/logo.jpg" alt="My avatar for lending" style="width: 250px">
+                    </div>
+                    <div class="info__my-name">
+                        <h1 class="item__my-name">Stanislav Chekh</h1>
+                        <h2 class="item__my-major">~ Front End Developer</h2>
+                    </div>
+                </div>
+            </div>
+
+            <section class="container">
+                <div class="container__code-example container-fluid">
         <main id="main" class="main">
             <div class="section container">
                 <div class="logo">
@@ -50,6 +85,25 @@
                     </div>
                 </div>
             </section>
+            <div class="container__example">
+                <textarea class="code-example-view" cols="80" rows="48">
+.transfusion-of-color {
+    margin-right: 1.5em;
+    position: relative;
+    font-family: Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 3.19em;
+    background: rgba(255, 255, 250, 0.7);
+    border-radius: 0.2em 0.2em;
+    overflow: hidden;
+    text-transform: uppercase;
+    text-align: center;
+}
+.transfusion-of-color:before {
+    content: '';
+    position: absolute;
+    filter: blur(12px);
+    top: 5px;
             <div class="content container">
     <textarea class="code-example-view" cols="80" rows="45">
 .transfusion-of-color {
@@ -71,6 +125,16 @@
     width: 100%;
     height: 100%;
     mix-blend-mode: screen;
+    background-image: repeating-linear-gradient(-65deg, transparent, transparent 1em, #c9c989 1em, #d41f1fbe 50%),
+        repeating-linear-gradient(65deg, #a3a5a5, #2dd4d4 1em, rgb(49, 150, 83) 1em, #7cf10e 50%);
+    background-size: 3em 3em, 2em 2em;
+    animation-name: anim;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+}
+@keyframes anim {
     background-image: repeating-linear-gradient(-45deg, transparent, transparent 1em, #da0e0e 1em, #cf5f03 50%),
         repeating-linear-gradient(45deg, #746049, #3d3c3b 1em, rgb(128, 79, 79) 1em, #c05b2d 50%);
     background-size: 3em 3em, 2em 2em;
@@ -94,6 +158,11 @@
         font-size: 20px;
     }
 }
+                </textarea>
+
+                <div class="container__content container-fluid">
+                    <section class="about-me">
+                        <h3 сlass="#">About me:</h3>
     </textarea>
                 <div class="section-1 container">
                     <section class="about-me">
@@ -112,6 +181,8 @@
                         </p>
                     </section>
                     <section class="skills">
+                        <h3 сlass="#">Skills:</h3>
+                    <section class="skills">
                         <h3>Skills:</h3>
                         <ul>
                             <li>HTML, CSS : markup, adaptive layout</li>
@@ -122,6 +193,24 @@
                             <li>I can google</li>
                         </ul>
                     </section>
+
+                    <section class="projects">
+                        <h3 class="#">Projects:</h3>
+                        <ul>
+                            <li><a href="https://github.com/Lazeta/Friday_Live_Coding.git">Friday Live Coding</a></li>
+                            <li><a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/plants/plants.md">Plants</a></li>
+                            <li><a href="https://github.com/rolling-scopes-school/tasks/blob/master/tasks/momentum/momentum-stage1.md">Momentum</a></li>
+                            <li><a href="https://github.com/Lazeta/portfolio.git">Portfolio</a></li>
+                            <li><a href="https://github.com/Lazeta/coding_time_stats.git">Coding time, stats</a></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+    
+            <section class="containter__course container-fluid">
+                <div class="course">
+                    <h3 class="#">Courses:</h3>
+                    <ul сlass="#">
                 </div>
             </div>
     
@@ -137,10 +226,16 @@
                         <li><a href="https://rs.school/js-stage0/">RS-school Course "JavaScript/Front-end. Stage 0" (in progress)</a></li>
                         <li><a href="https://rs.school/js/">Course "JavaScript/Front-end" (next)</a></li>
                     </ul>
+
+                </div>
+                <div class="language">
+                    <h3 class="#">Languages:</h3>
+                    <ul сlass="#">
                 </section>
                 <section class="languages">
                     <h3>Languages:</h3>
                     <ul>
+
                         <li>Belarusian - Intermediate</li>
                         <li>Ukrainian - Intermediate</li>
                         <li>English - Intermediate</li>
@@ -149,6 +244,19 @@
                         <li>Slovak - Basic</li>
                         <li>Chech - Basic</li>
                     </ul>
+                </div>
+            </section>
+        </main>
+        
+        <footer class="footer">
+            <div class="container container-fluid">
+                <ul class="footer__ul">
+                    <li class="item__create-data"><span >© 2022 by Stanislav Chekh</span></li>
+                    <li class="item__github"><a href="https://github.com/Lazeta">GitHub</a></li>
+                    <li class="item__phone"><a href="tel:+375333086965">+375333086965</a></li>
+                    <li class="item__discord"><a href="https://www.discord.com/ℤ𝕒𝕞#3735">Discord: Zam#3735</a></li>
+                    <li class="item__linkedin"><a href="https://www.linkedin.com/in/stas-chekh-307069167/">Linkedin</a></li>
+                    <li class="item__rs-logo"><a href="https://rs.school/js-stage0/"><img src="/rs_school-white-not-have-bg.ico" alt="rs school logo"></a></li>
                 </section>
             </div>
         </main>
