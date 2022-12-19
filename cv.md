@@ -3,7 +3,8 @@
 
 ![avatarka](assets/img/logo.jpg)
 
-----------------------------------------------------
+---
+
 ### contact information:
 
 <blockquote>
@@ -15,14 +16,16 @@
     <strong>Discord:</strong> <a href="https://discordapp.com/users/567955238225444866/">ℤ𝕒𝕞#3735</a></p>
 </blockquote>
 
------------------------------------------------------
+---
+
 ### Briefly About Myself:
 
  I aspire to become a professional in JS, HTML, CSS, Python. It is important for me to be able to make websites well, maintain them, debug them, develop applications, make bots, parsers and much more that programming languages are capable of.<br />
 
  I can sit on the code for a long time in an attempt to improve or fix it. The main skill that helps me in IT is the ability to google. The main goal is to work remotely at the computer as I like and travel freely around the world if possible
 
------------------------------------------------------
+---
+
 ### Skills and Proficiency:
 
 * HTML5, CSS3 : markup, adaptive layout
@@ -31,10 +34,11 @@
 * Windows Terminal, CMD, PowerShell
 * I can work with Google, Opera, Mozila Firefox.
 
------------------------------------------------------
-### Code Example:
-```
+---
 
+### Code Example:
+
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -94,9 +98,8 @@
     </style>
 </body>
 </html>
-
 ```
---------------------------------------------------------------------
+
 ### Courses:
 
 * https://fructcode.com/ru/courses/html-and-css-advanced/ HTML and CSS Course on the FructCode (completed)
@@ -106,12 +109,9 @@
 * https://pythonworld.ru/samouchitel-python "Python 3" (completed)
 * https://rs.school/js-stage0/ RS-school Course "JavaScript/Front-end. Stage 0" (in progress)
 * https://rs.school/js/ Course "JavaScript/Front-end" (next)
-* HTML and CSS Course on the FructCode and RS-school (completed)
-* RS-school Course "JavaScript/Front-end. Stage 0" (in progress)
-* Грокаем Алгоритмы "Python" (completed)
-* https://pythonworld.ru/samouchitel-python "Python 3" (completed)
 
---------------------------------------------------------------------
+---
+
 ### Languages:
 
 * Russian - Native
@@ -122,6 +122,6 @@
 * Chech - Basic
 * Slovak - Basic
 
---------------------------------------------------------------------
+---
 
 ![logo_rs_school](assets/svg/rs_school-white-not-have-bg.ico)
