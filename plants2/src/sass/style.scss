@@ -1,0 +1,300 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a { 
+    text-decoration: none;
+    color: #010201;
+}
+a:hover {
+    text-decoration: underline;
+}
+ul, ol, li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,body {
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* additional options */
+strong {} 
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700; 
+    font-size: 45px;
+    color: #717171;
+    line-height: 50px;
+} 
+h2 {
+    font-family: 'Inika', sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52.12px;
+    color: #000000;
+} 
+li,p {}
+li {}
+p {} 
+span {}
+
+
+
+
+/* current styles */
+.wrapper {
+    max-width: auto;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+/* header style */
+.header {}
+.navigation {display: flex;}
+
+/* main style */
+.main {}
+
+/* welcom section style */
+
+/* about section style */
+.about {}
+
+/* service section style*/
+.service {}
+
+/* price section style */
+.prices {}
+
+/* contact-us section style */
+.contact-us {}
+
+/* footer style */
+.footer {}
+
+/* interactive  */
+.btn__animation {
+    transition: 0.6s;
+    transform: scale(1);}
+.btn__animation_2 {
+    transition: 0.6s;
+    transform: scale(1);}
+.btn__animation:hover {
+    transition: 3s;
+    transform: scale(1);
+}
+.btn__animation_2:hover { 
+    transition: 2s;
+    transform: scale(1);
+}
+
+.gamburger {display: none;}
+
+@media (max-width: 1024) {}
+
+@media (max-width: 768px) {
+    /* header style */
+    .header {}
+
+    /* main style */
+    .main {}
+
+    /* welcom section style */
+    .welcome {}
+
+    /* about section style */
+    .about {}
+
+    /* service section style*/
+    .service {}
+
+    /* contact-us section style */
+    .contact-us {}
+
+    /* footer style */
+    .footer {} 
+}
+    
+@media (max-width: 600px) {}
+
+@media (max-width: 414) {
+    /* header style */
+    .header {}
+
+    /* main style */
+    .main {}
+
+    /* welcom section style */
+    .welcome {}
+
+    /* about section style */
+    .about {}
+    
+    
+    /* service section style*/
+    .service {}
+    .services__bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        align-items: flex-start;
+    }
+    .services__bar h2 {
+        max-width: 187px;
+        height: 69px;
+    }
+    .services__btns {
+        width: 282px;
+        height: 79px;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .services__btns button {
+        width: 121px;
+        height: 35px;
+        margin: 0px 10px 9px 0;
+    }
+    .services__content {
+        display: grid;
+        grid-template-columns: repeat(1, 0px);
+        gap: 34px 0px; 
+    }
+    .service__item {}
+    .service__item img {
+        width: 280px;
+        height: 350px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: none;
+    }
+
+    .leafs {display: none;}
+    .leafs img {display: none;}
+
+
+    /* interactive  */
+    .btn__animation {
+        transition: 0.6s;
+        transform: scale(1);}
+    .btn__animation_2 {
+        transition: 0.6s;
+        transform: scale(1);}
+    .btn__animation:hover {
+        transition: 3s;
+        transform: scale(1);
+        background-color: #E06733;
+        color:#ffffff;
+    }
+    .btn__animation_2:hover {
+        transition: 2s;
+        transform: scale(1);
+        background-color: #E06733;
+        color:#ffffff;
+    }
+
+    /* меню бургер в 4 полосы с анимацией, превращения в крестик */
+    .gamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 24px;
+        width: 40px;
+        cursor: pointer;
+        z-index: 11;
+        position: fixed;
+        top: 36px;
+        right: 25px;
+    }
+    .nav__bar {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        height: 50%;
+        z-index: 10;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 100px 20px 0 50px;
+        background-color: rgba(85, 136, 48, 0.9);
+        text-align: center;
+    }
+    .nav__bar.__gamburger {
+        display: flex;
+        animation: burgerAnimationOpen 0.75s;
+    }
+    .nav__bar.close {
+        display: flex;
+        animation: burgerAnimationClose 0.8s;
+    }
+
+    /* полоска */
+    .strip {
+        width: 100%;
+        height: 2px;
+        background-color: #717171;
+        transition: transform 0.2s ease;
+        z-index: 10;}
+    .strip:nth-child(1) {transform-origin: top right;}
+    .strip:nth-child(2) {transform-origin: top left;}
+    .strip:nth-child(4) {transform-origin: bottom right;}
+    .gamburger.__active .strip:nth-child(1){width: 33px; transform: rotate(-45deg);}
+    .gamburger.__active .strip:nth-child(2){opacity: 0;}
+    .gamburger.__active .strip:nth-child(3){opacity: 0;}
+    .gamburger.__active .strip:nth-child(4){width: 33px; transform: rotate(45deg);}
+}
+
+
+
+@keyframes burgerAnimationOpen {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+@keyframes burgerAnimationClose {
+    from {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+@keyframes move-left {
+    from {left: 0px;}
+    to {left: -500px;}
+}
+@keyframes move-right {
+    from {right: 0px;}
+    to {right: -500px;}
+}
+.transition-right { 
+    animation-name: move-right;
+    animation-duration: 0.8s;
+}
+.transition-left {
+    animation-name: move-left;
+    animation-duration: 0.8s;
+}
