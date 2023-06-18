@@ -105,12 +105,14 @@ header {
     position: relative;
     top: 50%;
     left: 50%;
-    margin: -125px 0 0 -125px;
+    margin: -125px 0 70px -140px;
     opacity: 95%;
 }
 .logo img {
-    max-width: 100%;
-    height: auto;
+    width: 290px;
+    height: 300px;
+    max-width: 110%;
+    /* height: auto; */
     display: block;
     border-radius: 50%;
     border: inset 6px rgba(240, 119, 6, 0.986);
