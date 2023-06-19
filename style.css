@@ -370,13 +370,14 @@ footer {
 
 footer li {
     text-decoration: none;
-    color: rgba(223, 52, 52, 0.836);    
-    transition: font-size 0.3s ease;
+    color: rgba(223, 52, 52, 0.836);
+    /* transition: font-size 0.3s ease; */
 }
 
-footer li:hover, li>a:hover {
+footer li:hover,
+li>a:hover {
     text-decoration: underline;
-    color:rgba(236, 228, 228, 0.9);
+    color: rgba(236, 228, 228, 0.9);
 }
 
 footer a {
