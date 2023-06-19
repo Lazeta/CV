@@ -5,31 +5,45 @@ body {
     font-size: 16px;
     background: url('/assets/img/city_image.jpeg') 0 0%/100%;
 }
-h1,h2,h3,h4,h5,h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
     padding: 0;
 }
-ul,li {
+
+ul,
+li {
     margin: 0;
     padding: 0;
     line-height: 1.5;
 }
+
 li a {
     line-height: 1.5;
+    text-decoration: none;
 }
+
 h1 {
     font-size: 2.8em;
     color: rgba(236, 232, 232, 90%);
 }
+
 h2 {
 
     font-size: 1.6em;
     color: rgba(236, 232, 232, 0.836);
 }
+
 h3 {
     line-height: 1.3;
     color: rgba(236, 232, 232, 0.836);
 }
+
 p {
     line-height: 1.5;
     color: rgba(236, 232, 232, 0.836);
@@ -40,26 +54,30 @@ p {
 .wrapper {
     min-width: 375px;
 }
+
 .container {
     margin: 0 0;
     padding: 0 0;
 }
+
 .wrapper__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    align-content: space-around; 
+    align-content: space-around;
 }
+
 .wrapper__main {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    align-content: space-around; 
+    align-content: space-around;
 }
+
 .wrapper__footer {
     display: flex;
     justify-content: space-between;
@@ -75,6 +93,15 @@ header {
     min-height: 80px;
     background: rgb(32, 29, 27);
 }
+
+header li {
+    transition: font-size 0.3s ease;
+}
+
+header li:hover {
+    font-size: 120%;
+}
+
 .header__ul {
     font-size: 1.20em;
     list-style-type: none;
@@ -82,10 +109,12 @@ header {
     flex-flow: row wrap;
     justify-content: space-evenly;
 }
+
 .header__ul li {
     margin-top: 25px;
     padding: 0 2em;
 }
+
 .header__ul a {
     text-decoration: none;
     color: rgba(223, 52, 52, 0.836);
@@ -95,6 +124,7 @@ header {
 main {
     margin: 0 auto;
 }
+
 .content__name {
     width: 100%;
     padding-bottom: 2em;
@@ -102,6 +132,7 @@ main {
     overflow: auto;
     padding-top: 150px;
 }
+
 .logo {
     width: 250px;
     height: 250px;
@@ -111,6 +142,7 @@ main {
     margin: -125px 0 70px -140px;
     opacity: 95%;
 }
+
 .logo img {
     width: 290px;
     height: 300px;
@@ -120,6 +152,7 @@ main {
     border-radius: 50%;
     border: inset 6px rgba(240, 119, 6, 0.986);
 }
+
 .info__my-name {
     width: 375px;
     margin-top: 10%;
@@ -128,19 +161,23 @@ main {
     opacity: 90%;
     background: rgba(10, 9, 9, 0.795);
 }
+
 .info__my-name h1 {
-    
+
     padding-left: 0px;
     color: rgba(248, 245, 245, 0.85);
 }
+
 .info__my-name h2 {
     margin: 5px 10px 0px 40px;
     padding: 0 5px 6px 0;
     color: rgba(248, 245, 245, 0.85);
 }
+
 .item__my-name {
     margin: 0;
 }
+
 .item__my-major {
     margin: 0;
 }
@@ -150,22 +187,26 @@ main {
     width: 100%;
     display: inline-block;
     flex-flow: row wrap;
-    position: relative;    
+    position: relative;
 }
+
 .container__code-example h2 {
     margin: 15px 0 6px 20px;
     font-size: 1.4em;
     max-width: 414px;
 }
+
 .code-example__name {
     color: rgba(236, 228, 228, 0.9);
 }
-.container__example { 
+
+.container__example {
     opacity: 80%;
     display: flex;
     flex-flow: row wrap;
     align-items: stretch;
 }
+
 .transfusion-of-color {
     position: relative;
     font-family: Arial, sans-serif;
@@ -177,6 +218,7 @@ main {
     text-transform: uppercase;
     text-align: center;
 }
+
 .transfusion-of-color:before {
     content: '';
     position: absolute;
@@ -195,6 +237,7 @@ main {
     animation-timing-function: ease-out;
     animation-direction: alternate;
 }
+
 @keyframes anim {
     from {
         background-position: 0 0;
@@ -222,47 +265,57 @@ textarea.code-example-view {
     flex-flow: column nowrap;
     position: relative;
 }
+
 .about-me {
     max-width: 500px;
     min-height: 250px;
     padding: 1.5em 4em 1em 1em;
 }
+
 .about-me p {
     padding-left: 1em;
     color: rgba(255, 255, 255, 1);
 }
+
 .about-me h2 {
     font-size: large;
     padding: 0 0 0 40px;
     color: rgba(250, 5, 5, 1);
 }
+
 .skills {
     padding: 1.5em 4em 1em 1em;
     line-height: 1.5em;
 }
+
 .skills li {
     padding-left: 1em;
     color: rgba(255, 255, 255, 1);
     list-style-type: none;
 }
+
 .skills h2 {
     font-size: large;
     padding: 0 0 10px 40px;
     color: rgba(250, 5, 5, 1);
 }
+
 .projects {
     padding: 1.5em 4em 1em 1em;
     line-height: 1.5em;
 }
+
 .projects li {
     padding-left: 1em;
     list-style-type: none;
 }
+
 .projects h2 {
     font-size: large;
     padding: 0 0 10px 40px;
     color: rgba(250, 5, 5, 1);
 }
+
 .projects a {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
@@ -276,27 +329,32 @@ textarea.code-example-view {
     background: rgba(10, 9, 9, 0.795);
     display: inline-flex;
     flex-flow: row wrap;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
+
 .course {
     margin-left: 20px;
     padding: 0.5em 2em 0.5em 2em;
     color: rgba(225, 225, 225, 0.85);
 }
+
 .course a {
     color: rgba(225, 225, 225, 0.85);
     text-decoration: none;
 }
+
 .course h2 {
     font-size: large;
     padding: 30px 0 10px 25px;
     color: rgba(223, 52, 52, 0.966);
 }
+
 .language {
     margin-left: 20px;
     padding: 0em 2em 1em 2em;
     color: rgba(225, 225, 225, 0.85);
 }
+
 .language h2 {
     font-size: large;
     padding: 0 0 10px 25px;
@@ -306,9 +364,25 @@ textarea.code-example-view {
 
 
 footer {
-    min-height: 80px; 
+    min-height: 80px;
     background: rgb(32, 29, 27);
 }
+
+footer li {
+    text-decoration: none;
+    color: rgba(223, 52, 52, 0.836);    
+    transition: font-size 0.3s ease;
+}
+
+footer li:hover, li>a:hover {
+    text-decoration: underline;
+    color:rgba(236, 228, 228, 0.9);
+}
+
+footer a {
+    color: rgba(223, 52, 52, 0.836);
+}
+
 .footer__ul {
     font-size: 1.1em;
     list-style-type: none;
@@ -316,16 +390,12 @@ footer {
     flex-flow: row wrap;
     justify-content: space-evenly;
 }
+
 .footer__ul li {
     margin-top: 20px;
     padding: 0 1em;
 }
-.footer__ul a {
-    color: rgba(223, 52, 52, 0.836);  
-}
-.item__create-data {
-    color: rgba(223, 52, 52, 0.836);  
-}
+
 .item__rs-logo img {
     margin-top: -8px
 }
