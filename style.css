@@ -92,6 +92,9 @@ header {
 }
 
 
+main {
+    margin: 0 auto;
+}
 .content__name {
     width: 100%;
     padding-bottom: 2em;
@@ -201,12 +204,7 @@ header {
         background-position: 100% 0;
     }
 }
-@media (max-width: 690px) {
-    .transfusion-of-color {
-        max-width: 375px;
-        font-size: 24px;
-    }
-}
+
 textarea.code-example-view {
     padding: 0 2em 0 0;
     max-width: 480px;
@@ -271,9 +269,10 @@ textarea.code-example-view {
 }
 
 
-.containter__course {
-    width: 980px;
-    margin-top: 0em;
+.container__course {
+    max-width: 1024px;
+    width: 100%;
+    margin-top: 1em;
     background: rgba(10, 9, 9, 0.795);
     display: inline-flex;
     flex-flow: row wrap;
@@ -281,7 +280,7 @@ textarea.code-example-view {
 }
 .course {
     margin-left: 20px;
-    padding: 0.5em 4em 0.5em 2em;
+    padding: 0.5em 2em 0.5em 2em;
     color: rgba(225, 225, 225, 0.85);
 }
 .course a {
@@ -329,310 +328,4 @@ footer {
 }
 .item__rs-logo img {
     margin-top: -8px
-}
-
-
-
-/* Adaptive */
-@media (max-width: 375px) {
-    .wrapper {
-        max-width: 375px;
-    }
-    .wrapper__header {
-        max-width: 375px;
-        padding: 0 0;
-        display: flex;
-        flex-flow: wrap;
-        text-align: center;
-    }
-    header {
-        min-width: 375px;
-        min-height: 80px;
-        background: rgb(32, 29, 27);
-    }
-    .header__ul li {
-        margin-top: 25px;
-        padding: 0 1.5em;
-    }
-    .wrapper__main {
-        width: 375px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        text-align: left;
-    }
-    .wrapper__footer {
-        width: 375px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-content: space-around;
-    }
-    .container__example { 
-        max-width: 375px;
-        opacity: 80%;
-        display: flex;
-        flex-flow: row wrap;
-    }
-    .container__content {
-        max-width: 375px;
-        background: rgba(24, 24, 34, 0.699);
-        display: flex;
-        justify-content: space-between;
-        flex-flow: column nowrap;
-        position: relative;
-        align-items: center;
-    }
-    textarea.code-example-view {
-        max-width: 375px;
-        border: solid 4px rgba(26, 26, 29);
-        background: rgba(90, 54, 37, 0.527);
-        color: rgba(226, 173, 13, 0.979);
-    }
-    .container__example { 
-        max-width: 375px;
-        opacity: 80%;
-        display: flex;
-        flex-flow: row wrap;
-        align-items: stretch;
-    }
-    .containter__course {
-        max-width: 375px;
-        margin-top: 1em;
-        background: rgba(10, 9, 9, 0.795);
-        display: inline-flex;
-        flex-flow: row wrap;
-        justify-content: space-between; 
-    }
-    .header__ul li {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 0 1.5em;
-    }
-    .footer__ul li {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 0 1em;
-    }
-}
-@media (max-width: 414px) {
-    .wrapper {
-        max-width: 414px;
-        /* width: max-content; */
-    }
-    .wrapper__header {
-        padding: 0 15px 0 15px;
-        min-width: 375px;
-        max-width: 414px;
-        display: flex;
-        flex-flow: wrap;
-        text-align: center;
-    }
-    .header__ul li {
-        margin-top: 25px;
-        padding: 0 1.5em;
-    }
-    .wrapper__main {
-        min-width: 375px;
-        max-width: 414px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        text-align: left;
-    }
-    .wrapper__footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-content: space-around;
-    }
-    .container__example { 
-        opacity: 80%;
-        display: flex;
-        flex-flow: row wrap;
-    }
-    .container__content {
-        max-width: 414px;
-        background: rgba(24, 24, 34, 0.699);
-        display: flex;
-        justify-content: space-between;
-        flex-flow: column nowrap;
-        position: relative;
-        align-self:auto;
-    }
-    textarea.code-example-view {
-        max-width: 400px;
-        border: solid 4px rgba(26, 26, 29);
-        background: rgba(90, 54, 37, 0.527);
-        color: rgba(226, 173, 13, 0.979);
-    }
-    .container__example { 
-        opacity: 80%;
-        display: flex;
-        flex-flow: row wrap;
-        align-items: stretch;
-    }
-    .containter__course {
-        max-width: 414px;
-        margin-top: 1em;
-        background: rgba(10, 9, 9, 0.795);
-        display: inline-flex;
-        flex-flow: row wrap;
-        justify-content: space-between; 
-    }
-    .header__ul li {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 0 1.5em;
-    }
-    .footer__ul li {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 0 1em;
-    }
-}
-@media (max-width: 768px) {
-    .wrapper {
-        min-width: 320px;
-    }
-    .wrapper__header {
-        padding: 0 15px 0 15px;
-        min-width: 320px;
-        display: flex;
-        flex-flow: wrap;
-        text-align: left;
-    }
-    .header__ul li {
-        margin-top: 25px;
-        padding: 0 1.5em;
-    }
-    .wrapper__main {
-        min-width: 375px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .container__example { 
-        opacity: 80%;
-        display: flex;
-        flex-flow: row wrap;
-        align-items: stretch;
-    }
-    textarea.code-example-view {
-        max-width: 400px;
-        border: solid 4px rgba(26, 26, 29);
-        background: rgba(90, 54, 37, 0.527);
-        color: rgba(226, 173, 13, 0.979);
-    }
-    .container__content {
-        max-width: 480px;
-        background: rgba(24, 24, 34, 0.699);
-        display: flex;
-        justify-content: space-between;
-        flex-flow: column nowrap;
-        position: relative;
-    }
-    .container__example { 
-        opacity: 80%;
-        display: flex;
-        flex-flow: row wrap;
-        align-items: stretch;
-    }
-    .containter__course {
-        width: 768px;
-        margin-top: 1em;
-        background: rgba(10, 9, 9, 0.795);
-        display: inline-flex;
-        flex-flow: row wrap;
-        justify-content: space-between; 
-    }
-    .header__ul li {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 0 1.5em;
-    }
-    .footer__ul li {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 0 1em;
-    }
-}
-@media (max-width: 1023px) {
-    .wrapper__header {
-        display: flex;
-        flex-flow: wrap;
-        padding: 0 15px 0 15px;
-        min-width: 320px;
-        text-align: center;
-    }
-    .header__ul li {
-        margin-top: 25px;
-        padding: 0 1.0em;
-    }
-    .wrapper__main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .wrapper__main {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-content: space-around; 
-    }
-    .container__example { 
-        opacity: 80%;
-        display: flex;
-        flex-flow: row wrap;
-        align-items: stretch;
-    }
-    textarea.code-example-view {
-        max-width: 400px;
-        border: solid 4px rgba(26, 26, 29);
-        background: rgba(90, 54, 37, 0.527);
-        color: rgba(226, 173, 13, 0.979);
-    }
-    .container__content {
-        max-width: 400px;
-        width: 371px;
-        background: rgba(24, 24, 34, 0.699);
-        display: flex;
-        justify-content: space-between;
-        flex-flow: row wrap;
-    }
-    .container__example { 
-        opacity: 80%;
-        display: flex;
-        flex-flow: row wrap;
-        align-items: stretch;
-    }
-    .containter__course {
-        width: 1024px;
-        margin-top: 1em;
-        background: rgba(10, 9, 9, 0.795);
-        display: inline-flex;
-        flex-flow: row wrap;
-        justify-content: space-between; 
-    }
-    .header__ul li {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 0 1.5em;
-    }
-    .footer__ul li {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 0 1em;
-    }
 }
