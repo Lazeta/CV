@@ -1,0 +1,83 @@
+@media (max-width: 414px) {
+    .wrapper {
+        max-width: 414px;
+    }
+
+    header {
+        max-height: 146.39px;
+    }
+
+    .wrapper__header {
+        padding: 0 15px 0 15px;
+        min-width: 375px;
+        max-width: 414px;
+        display: flex;
+        flex-flow: wrap;
+        text-align: center;
+    }
+    .header__ul li {
+        margin-top: 25px;
+        padding: 0 1.5em;
+    }
+    .wrapper__main {
+        min-width: 375px;
+        max-width: 414px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: left;
+    }
+    .wrapper__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-around;
+    }
+    .container__example { 
+        opacity: 80%;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .container__content {
+        max-width: 414px;
+        background: rgba(24, 24, 34, 0.699);
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column nowrap;
+        position: relative;
+        align-self:auto;
+    }
+    textarea.code-example-view {
+        max-width: 375px;
+        border: solid 4px rgba(26, 26, 29);
+        background: rgba(90, 54, 37, 0.527);
+        color: rgba(226, 173, 13, 0.979);
+    }
+    .container__example { 
+        opacity: 80%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: stretch;
+    }
+    .container__course {
+        max-width: 414px;
+        margin-top: 1em;
+        background: rgba(10, 9, 9, 0.795);
+        display: inline-flex;
+        flex-flow: row wrap;
+        justify-content: space-between; 
+    }
+    .header__ul li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0 1.5em;
+    }
+    .footer__ul li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0 1em;
+    }
+}
