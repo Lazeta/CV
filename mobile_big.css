@@ -2,6 +2,11 @@
     .wrapper {
         max-width: 414px;
     }
+
+    header {
+        max-height: 146.39px;
+    }
+
     .wrapper__header {
         padding: 0 15px 0 15px;
         min-width: 375px;

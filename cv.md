@@ -35,6 +35,7 @@ The goal is to solve puzzles on a daily basis, to create something in the digita
 
 * HTML, CSS, SCSS : markup, adaptive layout, animation
 * JavaScript, TypeSctipt, React develope
+* Build the project on Webpack
 * Visual Studio Code, Sublime Text 3, Pycharm
 * Windows Terminal, CMD, PowerShell, Git, Github
 * I can work with Google, Opera, Mozila Firefox, Brave.
