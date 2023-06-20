@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -91,6 +101,7 @@ p {
 
 header {
     min-height: 80px;
+    max-height: 95px;
     background: rgb(32, 29, 27);
 }
 
@@ -133,24 +144,46 @@ main {
     padding-top: 150px;
 }
 
+
 .logo {
-    width: 250px;
-    height: 250px;
     position: relative;
-    top: 50%;
-    left: 50%;
-    margin: -125px 0 70px -140px;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
     opacity: 95%;
 }
 
 .logo img {
-    width: 290px;
-    height: 300px;
-    max-width: 110%;
-    /* height: auto; */
-    display: block;
+    position: relative;
+    z-index: 2;
+    top: 6px;
+    left: 6px;
     border-radius: 50%;
-    border: inset 6px rgba(240, 119, 6, 0.986);
+    width: 388px;
+    height: 388px;
+}
+
+.logo::before {
+    content: '';
+    position: absolute;
+    inset: -20px 140px;
+    background: linear-gradient(315deg, #b3b01c, #c95512);
+    transition: 0.5s;
+    animation: animate 5s linear infinite;
+}
+
+.logo:hover::before {
+    inset: -20px 0px;
+}
+
+.logo::after {
+    content: '';
+    position: absolute;
+    inset: 6px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    z-index: 1;
 }
 
 .info__my-name {
@@ -245,6 +278,16 @@ main {
 
     to {
         background-position: 100% 0;
+    }
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    0% {
+        transform: rotate(360deg);
     }
 }
 
