@@ -1,0 +1,82 @@
+{
+  "profile": [
+    "I am a dedicated full-stack developer with over three years of hands-on experience in building dynamic and responsive web applications. My primary expertise lies in frontend development using React and its advanced frameworks such as Next.js. I have a strong passion for creating user-friendly interfaces and seamless user experiences, leveraging my deep understanding of JavaScript, HTML, and CSS."
+  ],
+  "details": [
+    {
+      "type": "text",
+      "name": "Country",
+      "value": "Belarus"
+    },
+    {
+      "type": "text",
+      "name": "City",
+      "value": "Gomel"
+    },
+    {
+      "type": "tel",
+      "name": "Phone",
+      "value": "+375 33 308 69 65"
+    },
+    {
+      "type": "email",
+      "name": "Email",
+      "value": "chekhstanislavdev@gmail.com"
+    },
+    {
+      "type": "telegram",
+      "name": "Telegram",
+      "value": "chekhstas"
+    },
+    {
+      "type": "github",
+      "name": "Github",
+      "value": "Lazeta"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML/CSS",
+      "value": "Strong understanding of HTML markup and CSS styling, including responsive design (using media queries, flexbox, or CSS grid layouts), CSS preprocessors (e.g., Sass), and CSS frameworks (e.g., Bootstrap, Tailwind CSS)"
+    },
+    {
+      "name": "JavaScript/TypeScript",
+      "value": "Proficient in JavaScript/TypeScript programming, with a strong understanding of its core concepts, features, and modern ES6+ syntax"
+    },
+    {
+      "name": "React/Next",
+      "value": "Proficient in React library, including its component-based architecture, virtual DOM, and state management concepts. Experienced in building dynamic user interfaces and scalable web applications with its popular frameworks such as Next.js, leveraging their server-side rendering (SSR) capabilities, routing, and API integration features to create high-performance and SEO-friendly applications"
+    },
+    {
+      "name": "REST API/GraphQL",
+      "value": "Understanding of RESTful principles and experience in consuming and integrating data from APIs, including handling requests, authentication, data manipulation, and implementing GraphQL queries and mutations."
+    }
+  ],
+  "education": [
+    {
+      "name": "Gomel State Professional Engineering Lyceum (2010-2013). “Electrician of high-voltage lines and Mechanic repairman for servicing machines and lines",
+      "value": "https://adukar.com/by/company/364"
+    },
+    {
+      "name": "RS School Course 2023 Q2",
+      "value": "https://app.rs.school/certificate/gy246u65"
+    }
+  ],
+  "experience": [
+    {
+      "name": "Frontend Developer",
+      "project": "Online store for sale and repair of Apple Equipment",
+      "description": "Developed and maintained a dynamic e-commerce platform, optimizing the user interface for a seamless and engaging customer experience.",
+      "path": "https://thechoice.pl/pl",
+      "startAt": "2024-06-01T00:00:00.000Z",
+      "endAt": "2024-12-01T00:00:00.000Z",
+      "role": [
+        "Designed and developed reusable components using Next.js and React.",
+        "Collaborated closely with UI/UX designers to implement an intuitive and responsive user interface.",
+        "Integrated real-time order tracking and a customer notification system to enhance user engagement.",
+        "Optimized frontend performance to improve load times and overall user experience."
+      ],
+      "stack": ["React", "Next.js", "TypeScript", "JavaScript", "Redux", "RTK Query", "Supabase", "Prisma", "TailwindCSS", "Zod", "HTML5", "CSS3", "Git", "Figma", "styled components", "SASS", "Jest", "Mocha", "Axios/Fetch API", "Postman", "Router", "Vite", "Webpack"]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #0a0a0a;
+  background-color: #fafafa;
+}
+
+@layer components {
+  .container {
+    @apply w-[min(90%,80ch)] mx-auto;
+  }
+}
