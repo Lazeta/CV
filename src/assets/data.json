@@ -1,6 +1,6 @@
 {
   "profile": [
-    "I am a dedicated full-stack developer with over three years of hands-on experience in building dynamic and responsive web applications. My primary expertise lies in frontend development using React and its advanced frameworks such as Next.js. I have a strong passion for creating user-friendly interfaces and seamless user experiences, leveraging my deep understanding of JavaScript, HTML, and CSS."
+    "I am a dedicated frontend developer with over three years of hands-on experience in building dynamic and responsive web applications. My primary expertise lies in frontend development using React and its advanced frameworks such as Next.js. I have a strong passion for creating user-friendly interfaces and seamless user experiences, leveraging my deep understanding of JavaScript, HTML, and CSS."
   ],
   "details": [
     {
@@ -48,8 +48,12 @@
       "value": "Proficient in React library, including its component-based architecture, virtual DOM, and state management concepts. Experienced in building dynamic user interfaces and scalable web applications with its popular frameworks such as Next.js, leveraging their server-side rendering (SSR) capabilities, routing, and API integration features to create high-performance and SEO-friendly applications"
     },
     {
+      "name": "Redux/RTK Query",
+      "value": "Proficient in Redux, including its state management concepts, actions, reducers, and middleware, and experience in using RTK Query for efficient data fetching and caching, ensuring scalability and performance in complex applications"
+    },
+    {
       "name": "REST API/GraphQL",
-      "value": "Understanding of RESTful principles and experience in consuming and integrating data from APIs, including handling requests, authentication, data manipulation, and implementing GraphQL queries and mutations."
+      "value": "Understanding of RESTful principles and experience in consuming and integrating data from APIs, including handling requests, authentication, data manipulation, and implementing GraphQL queries and mutations"
     }
   ],
   "education": [
@@ -65,18 +69,19 @@
   "experience": [
     {
       "name": "Frontend Developer",
-      "project": "Online store for sale and repair of Apple Equipment",
-      "description": "Developed and maintained a dynamic e-commerce platform, optimizing the user interface for a seamless and engaging customer experience.",
-      "path": "https://thechoice.pl/pl",
-      "startAt": "2024-06-01T00:00:00.000Z",
-      "endAt": "2024-12-01T00:00:00.000Z",
+      "project": "Banking Application",
+      "description": "Development of the client-side for a multifunctional banking application designed for personal finance management. Key features included user profile management, display of bank cards, account details, transaction filtering, and API integration for real-time data processing",
+      "path": "",
+      "startAt": "2023-06-01T00:00:00.000Z",
+      "endAt": "2025-12-01T00:00:00.000Z",
       "role": [
-        "Designed and developed reusable components using Next.js and React.",
-        "Collaborated closely with UI/UX designers to implement an intuitive and responsive user interface.",
-        "Integrated real-time order tracking and a customer notification system to enhance user engagement.",
-        "Optimized frontend performance to improve load times and overall user experience."
+        "Designed and implemented a modular frontend architecture using React , ensuring scalability and maintainability",
+        "Integrated RESTful APIs for real-time data fetching and state management using Redux and RTK Query , optimizing API calls with pagination and caching",
+        "Improved rendering performance for large datasets (e.g., transaction history) by implementing virtualization and memoization , reducing render time by 30% ",
+        "Ensured compliance with accessibility standards (WCAG and cross-browser compatibility across modern browsers",
+        "Wrote unit tests using Jest and React Testing Library , achieving 85%+ coverage for critical components"
       ],
-      "stack": ["React", "Next.js", "TypeScript", "JavaScript", "Redux", "RTK Query", "Supabase", "Prisma", "TailwindCSS", "Zod", "HTML5", "CSS3", "Git", "Figma", "styled components", "SASS", "Jest", "Mocha", "Axios/Fetch API", "Postman", "Router", "Vite", "Webpack"]
+      "stack": ["React", "TypeScript", "Redux toolkit", "RTK Query", "Router", "Prisma", "HTML5", "CSS3", "Webpack", "Git", "Figma", "REST API", "Postman", "Jest", "Mocha"]
     }
   ]
 }
